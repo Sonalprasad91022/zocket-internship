@@ -1,0 +1,100 @@
+.CanvasEditorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .CanvasEditorCanvasContainer {
+    width: 45%;
+    height: 100vh;
+    background-color: #d3d3d324;
+  }
+  
+  .CanvasEditorCaptionContainer {
+    width: 42%;
+    margin-right: 7vw;
+    margin-left: 2vw;
+  }
+  
+  .CanvasEditorCaptionData {
+    margin: 0 auto; 
+  }
+  
+  .CanvasEditorCanvas {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    margin-left: 6vw;
+    margin-top: 6vw;
+  }
+  
+  .CanvasEditorUpload {
+    margin-bottom: 10px;
+    display: flex;
+    border: .1px solid black;
+    padding: 1vw;
+    border-radius: .8vw;
+    margin-top: 1vw;
+  }
+  #imageUpload{
+    margin-left: .8vw;
+  }
+  .CanvasEditorInput {
+    margin-bottom: 10px;
+  }
+  
+  .CanvasEditorLabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .CanvasEditorColorInput {
+    vertical-align: middle;
+  }
+  .Top_part{
+    text-align: center;
+    font-size: 2vw;
+  }
+  .Top_below_part{
+    text-align: center;
+  }
+  
+  input[type="text" i] {
+    width: 97%;
+    height: 2.5vw;
+    border-radius: .7vw;
+    padding: .1vw;
+    padding: .4vw;
+    padding-left: 1vw;
+
+    border:.1px solid black;
+  }
+
+  .ColorPalette {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .CircularColor {
+    width: 20px;
+    height: 20px;
+    border-radius: 16%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .ColorPickerButton {
+    margin-left: 10px;
+  }
+  .ColorPickerPopover{
+    margin-left: 1vw;
+   
+  }
+  input[type="color" i]{
+    height: 2vw;
+    width: 2vw;
+  }
+  
